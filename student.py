@@ -23,3 +23,10 @@ def display_students():
 
 register_student()
 display_students()
+
+def add_marks():
+    student_id = input("Enter Student ID: ")
+    subject = input("Enter Subject: ")
+    marks = input("Enter Marks: ")
+
+    print(f"Marks {marks} added for {student_id} in {subject}.")
