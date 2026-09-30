@@ -23,6 +23,12 @@ def display_students():
 
 register_student()
 display_students()
+def mark_attendance():
+    student_id = input("Enter Student ID: ")
+    date = input("Enter Date: ")
+    status = input("Enter Attendance (Present/Absent): ")
+
+    print(f"Attendance for {student_id} on {date}: {status}")
 
 def add_marks():
     student_id = input("Enter Student ID: ")
